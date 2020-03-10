@@ -1,0 +1,705 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="288.9999999999998" scrolly="353.00000000000006" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="266.67103491879845" scrolly="413.94136223322823" scale="0.3159234851530674">
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="IdeP-@sV5SS(XMKe9DSc" x="-270" y="-670">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">AUTO</field>
+      <value name="VALUE">
+        <block type="animationList" id="VJo@G.i6Ow8BTP0roC*6">
+          <field name="FIELDNAME">M.M.Ouro</field>
+        </block>
+      </value>
+      <next>
+        <block type="assignMaterial" id="p*rB%*3C1-7BzM`[p|L]">
+          <value name="VALUE2">
+            <block type="materialList" id="8}=2S`^i6cS%kdYaYy(K">
+              <field name="FIELDNAME">M.Ingl.en</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="sxd1*E1Ew}D2rT$jrgd#">
+              <field name="FIELDNAME">Ingles</field>
+            </block>
+          </value>
+          <next>
+            <block type="hide" id="adjg)^3=Zx8v!tP.jrcN">
+              <value name="VALUE">
+                <block type="objectList" id="U7E/F3uScPCrIZS|qf%7">
+                  <field name="FIELDNAME">Blender-Logo</field>
+                </block>
+              </value>
+              <next>
+                <block type="hide" id="%3dNDy2,2+bte;[bnf56">
+                  <value name="VALUE">
+                    <block type="objectList" id="if,a/TO,*oR)6R7d=xZ,">
+                      <field name="FIELDNAME">Suzane</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="hide" id=")U(h,:.%H!?hwOA.:hZ_">
+                      <value name="VALUE">
+                        <block type="objectList" id="fJ9_TMZ{)H^KCVLNqC~(">
+                          <field name="FIELDNAME">Eu</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="BGm^4hTHP8I84I,R~UbI" x="250" y="-650">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="eUYV21O2+/!Jb#!PZwoz">
+          <field name="FIELDNAME">M.R.Blender</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="show" id="RkrB}5dx$c:{O$-3=?`i">
+          <value name="VALUE">
+            <block type="objectList" id="8|?C#=gm$A@r?93J4:Q%">
+              <field name="FIELDNAME">Blender-Logo</field>
+            </block>
+          </value>
+          <next>
+            <block type="hide" id="j{Shw{40RdIB*lLJs2I^">
+              <value name="VALUE">
+                <block type="objectList" id="1MD^*R4?(@4!vE{LDRfM">
+                  <field name="FIELDNAME">Suzane</field>
+                </block>
+              </value>
+              <next>
+                <block type="hide" id="](KQ-F/Clvbb*SgUn7y;">
+                  <value name="VALUE">
+                    <block type="objectList" id="k7Lwe1.PZdxvw9ve6H#)">
+                      <field name="FIELDNAME">Eu</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="8t[-_zSGK-mUmGHKv,lk" x="610" y="-590">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="zR`Kr3{sCdMt+T]4|Agp">
+          <field name="FIELDNAME">Reset</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="T8)@yN6L6y%ptp1u^W{Q">
+          <value name="VALUE2">
+            <block type="materialList" id="^r:)|_}KZ0=Ggle*-)2|">
+              <field name="FIELDNAME">Material</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="3+i,$h!gVF)4r(fOb1X_">
+              <field name="FIELDNAME">Medalha</field>
+            </block>
+          </value>
+          <next>
+            <block type="assignMaterial" id="m*iWA,5p:zK`.zQ5{#RB">
+              <value name="VALUE2">
+                <block type="materialList" id="mv9d{4g~HE@#WQTvDJ1E">
+                  <field name="FIELDNAME">Material</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <block type="objectList" id="WKIVM^7Z`w52|0^]`C,%">
+                  <field name="FIELDNAME">Blender-Logo</field>
+                </block>
+              </value>
+              <next>
+                <block type="assignMaterial" id="iN$JmFtk?x{6]7O,/VwG">
+                  <value name="VALUE2">
+                    <block type="materialList" id="c;%NQX:*A*jdg*Fpo#z-">
+                      <field name="FIELDNAME">Material</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <block type="objectList" id="G,qkXeH-Oh!k6y[c@W1I">
+                      <field name="FIELDNAME">Suzane</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="0D*^9^ULfN{6Zyxs(^{G">
+                      <value name="VALUE2">
+                        <block type="materialList" id="~a6GG1?$+k~7{XGUv1!t">
+                          <field name="FIELDNAME">Material</field>
+                        </block>
+                      </value>
+                      <value name="VALUE1">
+                        <block type="objectList" id="L_N1vd]G|~55Em2MH]:*">
+                          <field name="FIELDNAME">Eu</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="@andq(..ct-v.P158fGN">
+                          <value name="VALUE2">
+                            <block type="materialList" id="=za%n*v|OQCgS%h!7ri)">
+                              <field name="FIELDNAME">Mouse-en</field>
+                            </block>
+                          </value>
+                          <value name="VALUE1">
+                            <block type="objectList" id="#vm/ub4?r8e#u?*_nTRO">
+                              <field name="FIELDNAME">Mouse</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="hide" id="TX0Lb[7Lw)I3+nuS[8q;">
+                              <value name="VALUE">
+                                <block type="objectList" id="JG%MpC_/2Oj5kkGe@h++">
+                                  <field name="FIELDNAME">Blender-Logo</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="hide" id="2RQ[Q%3G)Tb^nkF/hQOC">
+                                  <value name="VALUE">
+                                    <block type="objectList" id="o)Hslrn:P}iurp=VPup_">
+                                      <field name="FIELDNAME">Suzane</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="hide" id="n4]S~LWzG_Q~1dD0T|%R">
+                                      <value name="VALUE">
+                                        <block type="objectList" id="H0@=Xm`F};D]Hrlm8yh]">
+                                          <field name="FIELDNAME">Eu</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="w;Xfqq+y)$uyI=zvDCTn" x="-270" y="-450">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="6(q~?m5%X7vAs@6Qvk%e">
+          <field name="FIELDNAME">M.M.Ouro</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="CM}+=MNXBBy.,9xrV4@{">
+          <value name="VALUE2">
+            <block type="materialList" id="fDblTcyFGyI)7(cslta?">
+              <field name="FIELDNAME">ouro</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="Y~RHL)JFT)LyU~HK1W_i">
+              <field name="FIELDNAME">Medalha</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="A4i_IgGul(yxQ-5,vqsa">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="YN^]5|-Q@GSl%d5zEH1O">
+              <field name="FIELDNAME">M.M.Ouro</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="Vk0J]_N[w$5`f*ebM}p!">
+              <value name="VALUE2">
+                <block type="materialList" id="1S7@RLKP(.v2h]Mdc.GF">
+                  <field name="FIELDNAME">ouro</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <block type="objectList" id="S(k3?()p*^H2K%xP;^WQ">
+                  <field name="FIELDNAME">Eu</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="KzhPP|!kRy/G#(ej:E}x">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+              <value name="VALUE">
+                <block type="objectList" id="?.,HpQSS^k]AUUvK4w3!">
+                  <field name="FIELDNAME">M.M.Ouro</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="pF)W]y$ai=BtT|?URf[O">
+                  <value name="VALUE2">
+                    <block type="materialList" id="R`H;F2KTfVazy1)Y-c+e">
+                      <field name="FIELDNAME">ouro</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <block type="objectList" id=",]j$eByB~F3G~DS)6C]7">
+                      <field name="FIELDNAME">Blender-Logo</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id=".$aEn+|k*kvxW:8Hau18">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+                  <value name="VALUE">
+                    <block type="objectList" id="r)Ie!C3mzqKEOEI4*eAN">
+                      <field name="FIELDNAME">M.M.Ouro</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="M~NO`L)^8}L4;*s}~dm?">
+                      <value name="VALUE2">
+                        <block type="materialList" id="=|c.@?a4h5q~6yG6(1k*">
+                          <field name="FIELDNAME">ouro</field>
+                        </block>
+                      </value>
+                      <value name="VALUE1">
+                        <block type="objectList" id="*x{:+D70m#,)M7xeGf0M">
+                          <field name="FIELDNAME">Suzane</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="sIgZ2LI$}-zYv,c(LD0f" x="270" y="-470">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id=",M.lvzZw^~(v@+6tV17#">
+          <field name="FIELDNAME">M.R.Suzanne</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="show" id="|F4_C^@.bVGmb7u2_i^D">
+          <value name="VALUE">
+            <block type="objectList" id="a@,Iu.haC5nb?Jk/euv@">
+              <field name="FIELDNAME">Suzane</field>
+            </block>
+          </value>
+          <next>
+            <block type="hide" id="iY%uXE2ZT3WB?R)tHB/k">
+              <value name="VALUE">
+                <block type="objectList" id="lUl?RSzp%@I3eD,KqMwg">
+                  <field name="FIELDNAME">Blender-Logo</field>
+                </block>
+              </value>
+              <next>
+                <block type="hide" id="E4tq]Z(t~U41QqcMW6jV">
+                  <value name="VALUE">
+                    <block type="objectList" id="G(dBoS5O~fzYO;G?kCq}">
+                      <field name="FIELDNAME">Eu</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="$?00Ecrgv@}M#,Xi?A/l" x="250" y="-290">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="1HQ;Fp:d@p}fF^Q`G9j;">
+          <field name="FIELDNAME">M.R.Eu</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="show" id="p*j0XVpo@i/IXhCMo|/0">
+          <value name="VALUE">
+            <block type="objectList" id="qQ3ko=%R55V1%Dzj.}7F">
+              <field name="FIELDNAME">Eu</field>
+            </block>
+          </value>
+          <next>
+            <block type="hide" id="$qLnhFs(dAQKljzGy~13">
+              <value name="VALUE">
+                <block type="objectList" id="lN=sH^ZP/y,X0CRY%i[!">
+                  <field name="FIELDNAME">Blender-Logo</field>
+                </block>
+              </value>
+              <next>
+                <block type="hide" id="J$n|zg/CFJP-C+@CUj(#">
+                  <value name="VALUE">
+                    <block type="objectList" id="VCfMn]$w-@,VRvEq`SuE">
+                      <field name="FIELDNAME">Suzane</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="%D5do,rkc08YxH*pP=nv" x="-270" y="-110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="d=Or4!rhcder1q_6O=h;">
+          <field name="FIELDNAME">M.M.Prata</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="!eBrP/~V@H,=`L*wJw[k">
+          <value name="VALUE2">
+            <block type="materialList" id="8F!WCY!O5nn6n6l+p]Z]">
+              <field name="FIELDNAME">prata</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="k-.KamI3%_^O$Cw:g9l`">
+              <field name="FIELDNAME">Medalha</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="$tAO!9RPWhzBe6i^/6nF">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="UT}5Zhk,bf-D{W)cnIml">
+              <field name="FIELDNAME">M.M.Prata</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="R#VgYV4WPwD!2Bt9~Z[S">
+              <value name="VALUE2">
+                <block type="materialList" id="Qu/iKyfbd|o5f[KpT,,^">
+                  <field name="FIELDNAME">prata</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <block type="objectList" id="RRt7LYu8}P8(}uF8o*%a">
+                  <field name="FIELDNAME">Eu</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="u|u?9b206X,rWjum(9u{">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+              <value name="VALUE">
+                <block type="objectList" id="=Gr3@4R0.5K=6cM/WlFa">
+                  <field name="FIELDNAME">M.M.Prata</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="^j:?u_mY`pS{8F%=SH%w">
+                  <value name="VALUE2">
+                    <block type="materialList" id="K3ogn$-L`g52uNgSZ?~/">
+                      <field name="FIELDNAME">prata</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <block type="objectList" id="51Zk_Scg*xqirtfZvrfJ">
+                      <field name="FIELDNAME">Blender-Logo</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="j]Yha7NdsHUbF4QvQnp=">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+                  <value name="VALUE">
+                    <block type="objectList" id="Ek@[o,!ic!wFs}Nyv)^x">
+                      <field name="FIELDNAME">M.M.Prata</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="NTvi}rlpxukEIQSc2#GW">
+                      <value name="VALUE2">
+                        <block type="materialList" id="DRV)3l*K!Ne[Q5oovl;S">
+                          <field name="FIELDNAME">prata</field>
+                        </block>
+                      </value>
+                      <value name="VALUE1">
+                        <block type="objectList" id="K:wDNvtQJ1VUxqC0,qd|">
+                          <field name="FIELDNAME">Suzane</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="^|dBtJteA-Ww4_IshX`K" x="310" y="-110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="6ogl7xQ{sk|*E~ZJ/W%4">
+          <field name="FIELDNAME">Português</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="sEi3Gh#y246k[/?.OR|8">
+          <value name="VALUE2">
+            <block type="materialList" id="CDQZ0F_PFrxjE/Tq*^W|">
+              <field name="FIELDNAME">M.Port.pt</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="6*$.d]kf0{/2$LbT.*nu">
+              <field name="FIELDNAME">Português</field>
+            </block>
+          </value>
+          <next>
+            <block type="assignMaterial" id="o~o3y:WC@T@-3YS.s~zk">
+              <value name="VALUE2">
+                <block type="materialList" id="C=[LhomwmagkXGQ5it#N">
+                  <field name="FIELDNAME">M.Ingl.pt</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <block type="objectList" id="*F1J4!${hGXC:=Zo+k_y">
+                  <field name="FIELDNAME">Ingles</field>
+                </block>
+              </value>
+              <next>
+                <block type="assignMaterial" id="1juaj+g8kXX=1Pn-p}z`">
+                  <value name="VALUE2">
+                    <block type="materialList" id="%$[ZR!PkO1MMxn5Y:99f">
+                      <field name="FIELDNAME">M.Malha.pt</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <block type="objectList" id="d+49o7fV8@KM0iN@qQ@H">
+                      <field name="FIELDNAME">M.R.Medalha</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="m}Su$rhWO:RFvmAhqrWS">
+                      <value name="VALUE2">
+                        <block type="materialList" id="PX#}wuTFO!ow6@EL/dg*">
+                          <field name="FIELDNAME">M.Material.pt</field>
+                        </block>
+                      </value>
+                      <value name="VALUE1">
+                        <block type="objectList" id="@tM?)wV;#0fWli,U!0?M">
+                          <field name="FIELDNAME">M.R.Material</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="FP]udM#RsU=vr7hHa:_Q">
+                          <value name="VALUE2">
+                            <block type="materialList" id=".9#A8om1g5dSc+t!)BnL">
+                              <field name="FIELDNAME">Mouse-pt</field>
+                            </block>
+                          </value>
+                          <value name="VALUE1">
+                            <block type="objectList" id="1eGJmc?GyWL6L)l8S!%:">
+                              <field name="FIELDNAME">Mouse</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="n4/we?ENZg6zNahm0{Q%" x="-270" y="250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="/3ppt,;8mF~Py=%^/Et{">
+          <field name="FIELDNAME">M.M.Bronze</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="Q]yt7i4pTLOx+?}J:4,6">
+          <value name="VALUE2">
+            <block type="materialList" id="}ngLYz1Ov[,-)[JFk;bN">
+              <field name="FIELDNAME">bronze</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="!2li/B^tp[#LDOP+%:BR">
+              <field name="FIELDNAME">Medalha</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="b|,*=m7zlrW[765QusH!">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="W!,w_Z]FaG^mu=RXA:+l">
+              <field name="FIELDNAME">M.M.Bronze</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="zr^I+}ORD[lywSHo3Iv8">
+              <value name="VALUE2">
+                <block type="materialList" id="V+93(-((2o7N;?$/(6X0">
+                  <field name="FIELDNAME">bronze</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <block type="objectList" id="Ba?d/$9j7^B}SDPgu[dP">
+                  <field name="FIELDNAME">Eu</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="P9msf#3.63[OLMfRgUa:">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+              <value name="VALUE">
+                <block type="objectList" id=".IY!)e2=2~4BO(8!*L.9">
+                  <field name="FIELDNAME">M.M.Bronze</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="C:~J(igFKh{onH$SG~dx">
+                  <value name="VALUE2">
+                    <block type="materialList" id="!1Fny%V#JpseTE6oLqJ5">
+                      <field name="FIELDNAME">bronze</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <block type="objectList" id="Z2p7E[(sW1M5}`U:9^nr">
+                      <field name="FIELDNAME">Blender-Logo</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="Dru(o6l6MB?`^T,Q@CFs">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+                  <value name="VALUE">
+                    <block type="objectList" id="_JM;VpmJ1vlL^|]Ns#MJ">
+                      <field name="FIELDNAME">M.M.Bronze</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="n-6H-Vl:.X21*G`$FD.T">
+                      <value name="VALUE2">
+                        <block type="materialList" id=":v{acmBP9NX,},3E|K1/">
+                          <field name="FIELDNAME">bronze</field>
+                        </block>
+                      </value>
+                      <value name="VALUE1">
+                        <block type="objectList" id="y8^:d4vnBnn-0:V_~teB">
+                          <field name="FIELDNAME">Suzane</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="^5N(pjhad%TTRQn|Oylt" x="270" y="250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="pAN.kM6$:6.}j?[xh($9">
+          <field name="FIELDNAME">Ingles</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=":cAOmky?_5Jhy.-rGZU}">
+          <value name="VALUE2">
+            <block type="materialList" id="p[/Z|+|p_;(m0eB1QjKw">
+              <field name="FIELDNAME">M.Port.en</field>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <block type="objectList" id="zJFDu8w}XzWh2.Jl=z1]">
+              <field name="FIELDNAME">Português</field>
+            </block>
+          </value>
+          <next>
+            <block type="assignMaterial" id="4U5PV){:Nnus;9`-J[fv">
+              <value name="VALUE2">
+                <block type="materialList" id="0NL+Zu`v6[FiARbA=bAJ">
+                  <field name="FIELDNAME">M.Ingl.en</field>
+                </block>
+              </value>
+              <value name="VALUE1">
+                <block type="objectList" id="R|#)y5}:bznWztuudshh">
+                  <field name="FIELDNAME">Ingles</field>
+                </block>
+              </value>
+              <next>
+                <block type="assignMaterial" id="=E(D#_`aF??*o2SGZ2Sa">
+                  <value name="VALUE2">
+                    <block type="materialList" id="K^6EE?(c`$0oM;tZ!VQZ">
+                      <field name="FIELDNAME">M.Malha.en</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <block type="objectList" id="o6VpCg?loe`#;cb(F%tn">
+                      <field name="FIELDNAME">M.R.Medalha</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="!V2#;xS/|I+q(to~huJG">
+                      <value name="VALUE2">
+                        <block type="materialList" id="kGDL9Vq{nCwI3JxbND5{">
+                          <field name="FIELDNAME">M.Material.en</field>
+                        </block>
+                      </value>
+                      <value name="VALUE1">
+                        <block type="objectList" id="7lxtG0-]TK6CsRYHlf/M">
+                          <field name="FIELDNAME">M.R.Material</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="E/R7PN_BN)}.Z[Z9CwRa">
+                          <value name="VALUE2">
+                            <block type="materialList" id=";gm}KOSx.AbpdV,W,jiA">
+                              <field name="FIELDNAME">Mouse-en</field>
+                            </block>
+                          </value>
+                          <value name="VALUE1">
+                            <block type="objectList" id="#?yEC/*ZW(_*|m1X(s_F">
+                              <field name="FIELDNAME">Mouse</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="976.4001342773436" viewport-y="28" viewport-w="957.562" viewport-h="629.6" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
